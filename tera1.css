@@ -1,7 +1,31 @@
 @charset "utf-8";
 
+/* header{
+    color: chocolate;
+    font-size: 20px;
+} */
+header li
 
-header{
-    font-size: 20;
-    color: chartreuse;
+li{
+    list-style: none;
+}
+
+.hreade-hiht li{
+    display: inline-block;
+}
+
+.header-low li{
+    display: inline-block;
+    width: 65px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+
+
+
+.top-img{
+    background-image: url(top-img.jpg) ;
+    background-size: auto;
 }
