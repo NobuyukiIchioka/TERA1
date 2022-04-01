@@ -4,28 +4,31 @@
     color: chocolate;
     font-size: 20px;
 } */
-header li
+.hreade-up{
+    /* display: flex; */
+    height: 25px;
+    border: solid 2px;
+}
+
+
 
 li{
     list-style: none;
-}
-
-.hreade-hiht li{
     display: inline-block;
-}
-
-.header-low li{
-    display: inline-block;
-    width: 65px;
-    background-color: cornflowerblue;
+    background-color: blue;
     color: white;
+    border: solid 1px black; 
+    width: 65px;
 }
+
 
 
 
 
 
 .top-img{
-    background-image: url(top-img.jpg) ;
+    width: 1920;
+    height: 250;
+    background-image:url(/img/top-img.jpg);
     background-size: auto;
 }
