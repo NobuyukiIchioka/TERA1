@@ -1,9 +1,7 @@
 @charset "utf-8";
 
-/* header{
-    color: chocolate;
-    font-size: 20px;
-} */
+
+/* header上部 */
 .hreade-up{
     display: flex;
     justify-content: center;
@@ -11,17 +9,33 @@
     border: solid 2px;
 }
 
-
-
-.header-CatchCopy{
-    margin-right: 55px;
+.hreade-up h1,.hreade-up div{
+    margin: auto 15px ;
 }
 
-.header-phone{
-    margin-left: 55px;
+.hreade-up div{
+    width: 280px;
 }
 
 
+
+/* .hreade-up divが優先されてしまうため!importantで対応 */
+/* .header-CatchCopy{
+    margin-right: 50px !important;
+} */
+/* .hreade-up divが優先されてしまうため!importantで対応 */
+/* .header-phone{
+    margin-left: 50px !important;
+} */
+
+.header-mail{
+    background-color: #DD0A39;
+    padding: auto 10px auto 50px;
+    height: 100%;
+}
+
+
+/* header下部 */
 li{
     list-style: none;
     display: inline-block;
@@ -43,4 +57,7 @@ li{
     height: 250;
     background-image:url(/img/top-img.jpg);
     background-size: auto;
+    border: dashed 3px;
 }
+
+
