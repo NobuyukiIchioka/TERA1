@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* 公式は、こちら　　https://narumi-plating.co.jp/ */
 
 
 /* header上部 */
@@ -46,27 +47,25 @@
 /* header下部 */
 .header-down{
     border: solid 2px yellow;
-    background-color: azure;
-}
-
-.header-menu{
     background-color: #0037A7;
     height: 50px;
 }
 
+.header-menu{
+height: 100%;
+display: flex;
+justify-content: center;
+}
+
 li{
-    list-style: none;
-    display: inline-block;
-    background-color: #0037A7;
     color: white;
-    border: solid 1px black; 
+    border: inset 1px ;
+    padding: auto 30px;
+    /* margin: auto 0; */
 }
 
 
-.header-down{
-    height: 60px;
-    border: solid 1px black;
-}
+
 
 
 
