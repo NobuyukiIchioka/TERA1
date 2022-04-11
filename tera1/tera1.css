@@ -5,8 +5,8 @@
 .hreade-up{
     display: flex;
     justify-content: center;
-    height: 60px;
-    border: solid 2px;
+    height: 58px;
+    border: solid 2px red;
 }
 
 .hreade-up h1,.hreade-up div{
@@ -16,8 +16,6 @@
 .hreade-up div{
     width: 280px;
 }
-
-
 
 /* .hreade-up divが優先されてしまうため!importantで対応 */
 .header-CatchCopy{
@@ -46,6 +44,16 @@
 
 
 /* header下部 */
+.header-down{
+    border: solid 2px yellow;
+    background-color: azure;
+}
+
+.header-menu{
+    background-color: #0037A7;
+    height: 50px;
+}
+
 li{
     list-style: none;
     display: inline-block;
