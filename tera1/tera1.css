@@ -20,19 +20,29 @@
 
 
 /* .hreade-up divが優先されてしまうため!importantで対応 */
-/* .header-CatchCopy{
+.header-CatchCopy{
     margin-right: 50px !important;
-} */
+}
 /* .hreade-up divが優先されてしまうため!importantで対応 */
-/* .header-phone{
+.header-phone{
     margin-left: 50px !important;
-} */
+    /* 以下はフレックスBOX設定 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .header-mail{
     background-color: #DD0A39;
-    padding: auto 10px auto 50px;
+    /* padding: auto 50px auto 50px; */
     height: 100%;
+    display: flex;
+    align-items: center;
 }
+.header-mail img{
+    margin:  auto 10px auto 50px;
+}
+
 
 
 /* header下部 */
