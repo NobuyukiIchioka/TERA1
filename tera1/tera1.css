@@ -2,12 +2,11 @@
 /* 公式は、こちら　　https://narumi-plating.co.jp/ */
 
 
-/* header上部 */
+/* **************header上部********** */
 .hreade-up{
     display: flex;
     justify-content: center;
     height: 58px;
-    border: solid 2px red;
 }
 
 .hreade-up h1,.hreade-up div{
@@ -44,9 +43,8 @@
 
 
 
-/* header下部 */
+/* **************header下部************ */
 .header-down{
-    border: solid 2px yellow;
     background-color: #0037A7;
     height: 50px;
 }
@@ -59,10 +57,21 @@ justify-content: center;
 
 li{
     color: white;
-    border: inset 1px ;
-    padding: auto 30px;
-    /* margin: auto 0; */
+    display: flex;
+    align-items: center;
+    /* 範囲が分かりやすい為の線 */
+    /* border: solid 1px ; */
 }
+li:hover{
+    background-color: #66AAFF;
+}
+
+li p{
+    margin: 0 30px;
+    /* 範囲が分かりやすい為の線 */
+    /* border: dashed 1px ; */
+}
+
 
 
 
