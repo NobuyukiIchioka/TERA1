@@ -37,6 +37,10 @@
     display: flex;
     align-items: center;
 }
+.header-mail:hover{
+    background-color: #EFCCCF;
+}
+
 .header-mail img{
     margin:  auto 10px auto 50px;
 }
@@ -83,7 +87,10 @@ li p{
     height: 250;
     background-image:url(/img/top-img.jpg);
     background-size: auto;
-    border: dashed 3px;
 }
 
+.top-img_title{
+    color: white;
+    font-size: 50px;
+}
 
