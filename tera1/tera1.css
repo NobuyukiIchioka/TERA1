@@ -89,9 +89,7 @@ li p{
 }
 
 
-
-
-
+/* **************main************ */
 
 
 .top-img{
@@ -110,6 +108,8 @@ li p{
     font-family: serif;
 }
 
+/* 消す********************** */
+
 table{
     border: double 3px red;
 }
@@ -120,3 +120,13 @@ td{
     border: dashed 1px;
 }
 
+/* 消す********************** */
+
+.table_title{
+    font-size: 16px;
+    /* display: table; */
+    border-left: 5px solid #0037A7;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1.3;
+}
