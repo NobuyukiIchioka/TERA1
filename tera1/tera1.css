@@ -121,6 +121,7 @@ table{
 }
 
 th{
+    text-align: left;
     border-top: solid 1px #0738A4;
     padding: 15px;
     width: 260px;
@@ -131,17 +132,23 @@ td{
 }
 
 .table_title{
-    margin: 80px 0 25px;
+    margin: 80px 0 30px;
+    height: 35px;
+}
+
+.table_title:first-child{
+    margin-top: 55px;
 }
 
 .table_name{
     font-size: 20px;
-    /* display: table; */
     border-left: 5px solid #0037A7;
     border-top: none;
     font-weight: bold;
     line-height: 1.3;
+    padding: 5px;
     width: 1110px;
+    height: 35px;
 }
 
 
